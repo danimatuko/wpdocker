@@ -36,9 +36,6 @@ MYSQL_PASSWORD=examplepass
 PMA_HOST=mariadb
 PMA_USER=root
 PMA_PASSWORD=root_password
-
-#Ignore environment variables
-.env
 ```
 
 Start the services:
