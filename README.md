@@ -80,4 +80,3 @@ Access WordPress at http://localhost:8000 and PHPMyAdmin at http://localhost:808
 ## License
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
-# wpdocker
