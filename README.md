@@ -15,7 +15,6 @@ Clone this repository to your local machine:
 
 ```bash
 git clone https://github.com/danimatuko/wpdocker.git
-cd your-repository
 ```
 
 Create a `.env` file in the root of the repository with the following environment variables:
