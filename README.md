@@ -20,22 +20,25 @@ git clone https://github.com/danimatuko/wpdocker.git
 Create a `.env` file in the root of the repository with the following environment variables:
 
 ```bash
-# WordPress
+#WordPress
 WORDPRESS_DB_HOST=mariadb
 WORDPRESS_DB_USER=exampleuser
 WORDPRESS_DB_PASSWORD=examplepass
 WORDPRESS_DB_NAME=exampledb
 
-# MariaDB
+#MariaDB
 MYSQL_ROOT_PASSWORD=root_password
 MYSQL_DATABASE=exampledb
 MYSQL_USER=exampleuser
 MYSQL_PASSWORD=examplepass
 
-# PHPMyAdmin
+#PHPMyAdmin
 PMA_HOST=mariadb
 PMA_USER=root
 PMA_PASSWORD=root_password
+
+#Ignore environment variables
+.env
 ```
 
 Start the services:
