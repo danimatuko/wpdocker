@@ -1,0 +1,15 @@
+# Ignore system and editor files
+.idea/
+.vscode/
+
+# Ignore Docker related files
+.docker/
+.dockerignore
+docker-compose.override.yml
+docker-compose.override.yml.example
+
+# Ignore WordPress installation
+wordpress/
+
+# Ignore MariaDB
+MariaDB/
