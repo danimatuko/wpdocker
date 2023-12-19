@@ -12,4 +12,7 @@ docker-compose.override.yml.example
 wordpress/
 
 # Ignore MariaDB
-MariaDB/
+mariadb/
+
+# Ignore .environment variables
+.env
